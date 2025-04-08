@@ -3,40 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Example Page with RTMark Tracking</title>
+    <!-- RTMark Script -->
+    <script src="https://my.rtmark.net/p.js?f=sync&lr=1&partner=b3aacf38346665ec8c56b7f6984c599687b661ed86e81d5475372a0dcfad5188" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Simple Web Page</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>This is the home section of the page.</p>
-    </section>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple page to demonstrate adding the RTMark tracking script.</p>
 
-    <section id="about">
-        <h2>About</h2>
-        <p>This is the about section. Here's a bit about the website.</p>
-    </section>
+    <!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+        <img src="https://my.rtmark.net/img.gif?f=sync&lr=1&partner=b3aacf38346665ec8c56b7f6984c599687b661ed86e81d5475372a0dcfad5188" width="1" height="1" />
+    </noscript>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to us.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Simple Web Page. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
